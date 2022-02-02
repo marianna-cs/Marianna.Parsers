@@ -1,14 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marianna.Parsers", "Marianna.Parsers\Marianna.Parsers.csproj", "{23ACBA2E-45A6-424C-92E6-531D02FE942B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marianna.Parsers", "Marianna.Parsers\Marianna.Parsers.csproj", "{23ACBA2E-45A6-424C-92E6-531D02FE942B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{709001DE-FFCA-48BC-9370-E3F0ED9784F6} = {709001DE-FFCA-48BC-9370-E3F0ED9784F6}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marianna.AutotiaAgility", "Marianna.AutotiaAgility\Marianna.AutotiaAgility.csproj", "{709001DE-FFCA-48BC-9370-E3F0ED9784F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marianna.AutotiaAgility", "Marianna.AutotiaAgility\Marianna.AutotiaAgility.csproj", "{709001DE-FFCA-48BC-9370-E3F0ED9784F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marianna.AHWShop", "Marianna.AHWShop\Marianna.AHWShop.csproj", "{F5F444FA-1D5D-46B6-A119-AB5AFC7D581E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marianna.ASAM", "Marianna.ASAM\Marianna.ASAM.csproj", "{AE20D6BA-9385-4512-91BC-61C377415CB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marianna.HitParts", "Marianna.HitParts\Marianna.HitParts.csproj", "{733826EF-E472-4534-872C-C23AA40717D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marianna.Moto", "Marianna.Moto\Marianna.Moto.csproj", "{75B7B71D-D34B-4E13-90E9-D3BEB2B94075}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marianna.Myparto", "Marianna.Myparto\Marianna.Myparto.csproj", "{E12AF450-DC05-4280-8012-AB9C9C7EB0B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marianna.Ucando", "Marianna.Ucando\Marianna.Ucando.csproj", "{47F1A40C-8382-4A8D-B14E-88F4D1C67959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marianna.RBS", "Marianna.RBS\Marianna.RBS.csproj", "{20904585-9780-4CBE-A674-69AE82A89E02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +38,34 @@ Global
 		{709001DE-FFCA-48BC-9370-E3F0ED9784F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{709001DE-FFCA-48BC-9370-E3F0ED9784F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{709001DE-FFCA-48BC-9370-E3F0ED9784F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F444FA-1D5D-46B6-A119-AB5AFC7D581E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F444FA-1D5D-46B6-A119-AB5AFC7D581E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F444FA-1D5D-46B6-A119-AB5AFC7D581E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F444FA-1D5D-46B6-A119-AB5AFC7D581E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE20D6BA-9385-4512-91BC-61C377415CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE20D6BA-9385-4512-91BC-61C377415CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE20D6BA-9385-4512-91BC-61C377415CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE20D6BA-9385-4512-91BC-61C377415CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733826EF-E472-4534-872C-C23AA40717D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733826EF-E472-4534-872C-C23AA40717D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733826EF-E472-4534-872C-C23AA40717D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733826EF-E472-4534-872C-C23AA40717D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B7B71D-D34B-4E13-90E9-D3BEB2B94075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B7B71D-D34B-4E13-90E9-D3BEB2B94075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B7B71D-D34B-4E13-90E9-D3BEB2B94075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B7B71D-D34B-4E13-90E9-D3BEB2B94075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12AF450-DC05-4280-8012-AB9C9C7EB0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12AF450-DC05-4280-8012-AB9C9C7EB0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12AF450-DC05-4280-8012-AB9C9C7EB0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12AF450-DC05-4280-8012-AB9C9C7EB0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F1A40C-8382-4A8D-B14E-88F4D1C67959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F1A40C-8382-4A8D-B14E-88F4D1C67959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F1A40C-8382-4A8D-B14E-88F4D1C67959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F1A40C-8382-4A8D-B14E-88F4D1C67959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20904585-9780-4CBE-A674-69AE82A89E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20904585-9780-4CBE-A674-69AE82A89E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20904585-9780-4CBE-A674-69AE82A89E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20904585-9780-4CBE-A674-69AE82A89E02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

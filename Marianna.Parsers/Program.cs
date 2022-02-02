@@ -1,5 +1,6 @@
-﻿using Marianna.AutotiaAgility;
-using System;
+﻿using System;
+using Marianna.RBS;
+
 
 namespace Marianna.Parsers
 {
@@ -8,7 +9,8 @@ namespace Marianna.Parsers
         static void Main(string[] args)
         {
             var parser = new Parser();
-            parser.Invoke();
+            parser.Pars();
+
         }
     }
 }

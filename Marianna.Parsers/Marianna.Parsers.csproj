@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Marianna.AutotiaAgility\Marianna.AutotiaAgility.csproj" />
+    <ProjectReference Include="..\Marianna.HitParts\Marianna.HitParts.csproj" />
+    <ProjectReference Include="..\Marianna.Moto\Marianna.Moto.csproj" />
+    <ProjectReference Include="..\Marianna.Myparto\Marianna.Myparto.csproj" />
+    <ProjectReference Include="..\Marianna.RBS\Marianna.RBS.csproj" />
+    <ProjectReference Include="..\Marianna.Ucando\Marianna.Ucando.csproj" />
   </ItemGroup>
 
 </Project>
